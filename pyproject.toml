@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]  
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ezunzip"
+version = "1.0.0"
+authors = [{ name="CHUA某人", email="chua-x@outlook.com" }]
+description = "同夹压缩速解精灵，同时解压同目录下所有任意种类压缩包"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "Apache-2.0"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Natural Language :: Chinese (Simplified)",
+    "Intended Audience :: End Users/Desktop"
+    ]
+
+dependencies = [
+    "pymsgbox",
+    "rarfile",
+    "py7zr",
+    "cabfile"
+]
+
+[project.urls]
+Homepage = "https://github.com/CHUA-X/Unzip/"
